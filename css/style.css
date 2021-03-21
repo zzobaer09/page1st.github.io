@@ -25,6 +25,7 @@ input{
     border: none;
     color: rgb(141, 240, 128);
     font-size: 19px;
+    width: 50%;
     border-bottom: 3px solid yellowgreen;
 }
 input:hover{
@@ -57,9 +58,10 @@ a:hover{
     color: white;
 }
 #form{
+    width: 60%;
     padding-bottom: 50px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #form:hover{
     background-color: white;
