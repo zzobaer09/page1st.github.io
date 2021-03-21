@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    color: rgb(252, 253, 177);
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    animation: back 1.5s;
+    animation-iteration-count: infinite;
+}
+h1{
+    font-family: 'Caveat', cursive;
+    font-size: 92px;
+    margin-top: 20px;
+}
+.margin{
+    margin-top: 50px;
+}
+input{
+    background: transparent;
+    border: none;
+    color: rgb(141, 240, 128);
+    font-size: 19px;
+    border-bottom: 3px solid yellowgreen;
+}
+input:hover{
+    border-bottom: 3px solid black;
+    animation: inP 4s;
+    animation-iteration-count: infinite;
+
+}
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(207, 238, 120);
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+}
+button:hover{
+    background-color: black;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+#form{
+    padding-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#form:hover{
+    background-color: white;
+    color: black;
+    box-shadow: wheat 0px 0px 100px;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+/* input animation */
+
+@keyframes inP{
+    0%{
+        padding-left: 1px;
+        padding-right: 1px;
+        border-bottom: 3px solid rgb(0, 255, 234);
+    }
+    /* 0%{
+        display: none;
+    } */
+    10%{
+        padding-left: 3px;
+        padding-right: 3px;
+        border-bottom: 3px solid rgb(0, 118, 253);
+    }
+    20%{
+        padding-left: 5px;
+        padding-right: 5px;
+        border-bottom: 3px solid rgb(255, 0, 0);
+    }
+    30%{
+        padding-left: 7px;
+        padding-right: 7px;
+        border-bottom: 3px solid rgb(0, 255, 187);
+    }
+    40%{
+        padding-left: 9px;
+        padding-right: 9px;
+        border-bottom: 3px solid rgb(0, 255, 55);
+    }
+    50%{
+        padding-left: 11px;
+        padding-right: 11px;
+        border-bottom: 3px solid rgb(141, 1, 255);
+    }
+    60%{
+        padding-left: 13px;
+        padding-right: 13px;
+        border-bottom: 3px solid rgb(255, 234, 113);
+    }
+    70%{
+        padding-left: 15px;
+        padding-right: 15px;
+        border-bottom: 3px solid rgb(72, 247, 174);
+    }
+    80%{
+        padding-left: 17px;
+        padding-right: 17px;
+        border-bottom: 3px solid rgb(120, 149, 153);
+    }
+    90%{
+        padding-left: 19px;
+        padding-right: 19px;
+        border-bottom: 3px solid rgb(255, 0, 149);
+    }
+    100%{
+        padding-left: 21px;
+        padding-right: 21px;
+        border-bottom: 3px solid rgb(0, 0, 0);
+    }
+    
+}
+
+
+
+/* body animation */
+
+@keyframes back{
+    0%{
+        background-color: rgb(37, 37, 37);
+    }
+    100%{
+        background-color: rgb(43, 43, 43);
+    }
+}
